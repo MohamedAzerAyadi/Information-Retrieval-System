@@ -9,6 +9,7 @@ import logging
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]:%(message)s:')
 
 #création de l'arborescence du projet 
+#pour créer un nouveau répertoire ou dossier, il suffit d'ajouter le chemin dans list_of_files et réexecuter 
 list_of_files = [
     "src/__init__.py",
     "src/helper.py",
